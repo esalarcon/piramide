@@ -4,7 +4,6 @@
 #include <time.h>
 #define MOD_RESTA(X,Y) ((X)>(Y))?((X)-(Y)):((Y)-(X))
 
-
 double get_process_time(void);
 void imprimir_piramide(char d[]); 
 void base_piramide(char d[]);
@@ -14,7 +13,6 @@ int piramide_OK(char d[]);
 int main(void)
 {
    char piramide[16];
-   char *d = piramide;
    double start_t, end_t;
    long intentos = 15L*15L*15L*15L*15L;
    long i; 
